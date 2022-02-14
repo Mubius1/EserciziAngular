@@ -1,0 +1,17 @@
+.orderList{
+    background-color:cornflowerblue;
+    border: 1px solid blue;
+    width: 45vw;
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.orderListMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px
+}

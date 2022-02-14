@@ -1,0 +1,12 @@
+.appComponentWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.mainComponents{
+    display: flex;
+    gap: 10px;
+    height: 80vh;
+
+}
