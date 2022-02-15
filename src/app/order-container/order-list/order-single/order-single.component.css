@@ -13,7 +13,7 @@
 .orderSingleContainer{
     display: flex;
     gap: 10px;
-    height: 16vh;
+    height: 10vh;
     justify-content: center;
 }
 
