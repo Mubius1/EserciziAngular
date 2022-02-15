@@ -4,3 +4,6 @@
     width: 15vw;
     text-align: center;
 }
+ol>li{
+    text-align: left;
+}
