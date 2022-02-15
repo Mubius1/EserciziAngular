@@ -1,4 +1,8 @@
 <div class="userSingle">
-    <h4>user-single.component</h4>
+    <ol>
+        <li *ngFor="let utente of utenti">
+            <p><img [src]="utente.profilePhotoUrl" height="20" width="20" alt=""> <b>{{utente.name}} {{utente.surname}}</b> {{utente.age}} {{utente.address.city}}</p>
+        </li>
+    </ol>
 </div>
 
