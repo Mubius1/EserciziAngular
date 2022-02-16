@@ -2,8 +2,13 @@
     <div class="userListHeader">
         <h4>user-list.component</h4>
     </div>
-    <div class="nestedComponents">
-        <app-user-single></app-user-single>
+    <div class="nestedComponents" *ngFor="let utente of utenti;">
+        <app-user-single [utente]="utente"></app-user-single>
+            <!-- <ol>
+        <li *ngFor="let utente of utenti">
+            <p><img [src]="utente.profilePhotoUrl" height="20" width="20" alt=""> <b>{{utente.name}} {{utente.surname}}</b> {{utente.age}} {{utente.address.city}}</p>
+        </li>
+    </ol> -->
     </div>
 
 </div>

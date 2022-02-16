@@ -3,6 +3,7 @@
     border: 1px solid yellow;
     width: 15vw;
     text-align: center;
+    border-bottom: 5px;
 }
 ol>li{
     text-align: left;
