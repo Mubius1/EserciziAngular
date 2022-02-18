@@ -85,4 +85,10 @@ export class UserListComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  cancellaUtente(utenteSelezionato: objInterface2) {
+    this.utenti.splice(
+      this.utenti.findIndex((i) => i.id === utenteSelezionato.id),
+      1
+    );
+  }
 }

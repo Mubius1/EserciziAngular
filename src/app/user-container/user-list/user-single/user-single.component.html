@@ -1,4 +1,7 @@
 <div class="userSingle">
-    <p><img src="{{utente.profilePhotoUrl}}" height="25" alt="immagine profilo">{{utente.name}} {{utente.surname}} {{utente.age}}</p>
+    <p>
+        <img src="{{utente.profilePhotoUrl}}" height="25" alt="immagine profilo">{{utente.name}} {{utente.surname}} {{utente.age}}
+        <button (click)="deleteFunction(utente)">Delete</button>
+    </p>
 </div>
 
