@@ -5,6 +5,6 @@
     <div class="nestedComponents" *ngFor="let utente of utenti;">
         <app-user-single [utente]="utente" (utenteDelete)="cancellaUtente($event)"></app-user-single>
     </div>
-
+    <h3 *ngIf="utenti?.length==0">Non sono presenti utenti</h3>
 </div>
 
