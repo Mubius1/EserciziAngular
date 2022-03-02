@@ -7,7 +7,7 @@ import { objInterface2 } from "src/app/user-container/user-list/user-list.compon
   styleUrls: ['./user-single.component.css']
 })
 export class UserSingleComponent implements OnInit {
-  @Input() prova!:string;
+  @Input() index!:number
   @Input() utente!:any
   @Output() utenteDelete = new EventEmitter<object>();
   constructor() { }

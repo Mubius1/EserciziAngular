@@ -1,20 +1,19 @@
-.userList{
-    background-color:springgreen;
-    width: 20vw;
-    height: 70vh;
-    border: 1px solid green;
-    display: flex;
-    flex-direction: column;
+.userList {
+  background-color: springgreen;
+  width: 20vw;
+  height: 70vh;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
 }
-.userListHeader{
-    display: flex;
-    justify-content: center;
+.userListHeader {
+  display: flex;
+  justify-content: center;
 }
 
-.nestedComponents{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:10px;
-    
+.nestedComponents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }

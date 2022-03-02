@@ -1,4 +1,4 @@
-<div class="userSingle">
+<div class="userSingle" [ngClass]="{'staff':utente.role == 0,'student':utente.role == 1,'manager':utente.role == 2,'admin':utente.role == 3}">
     <p>
         <img src="{{utente.profilePhotoUrl}}" height="25" alt="immagine profilo">{{utente.name}} {{utente.surname}} {{utente.age}}
         <button (click)="deleteFunction(utente)">Delete</button>
